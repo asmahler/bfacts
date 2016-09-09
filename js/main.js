@@ -18,7 +18,7 @@ init();
 
 function ajax(){
   var request = new XMLHttpRequest();
-  request.open('GET', 'https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch= ' + browserSize, true);
+  request.open('GET', 'https://en.wikipedia.org/w/api.php?action=query&format=json&origin=*&list=search&srsearch= ' + browserSize, true);
   request.onload = function() {
   if (request.status >= 200 && request.status < 400) {
     // Success!
