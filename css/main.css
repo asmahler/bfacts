@@ -1,0 +1,45 @@
+html,body{
+  margin: 0;
+  body:0;
+  background-color: #7FDBFF;
+  font-family: Helvetica, sans-serif;
+}
+
+.container{
+  width: 100;
+}
+
+.card{
+  width: 70%;
+  margin: 200px auto;
+  height: 200px;
+  text-align: center;
+
+}
+
+#size {
+  color: #F012BE;
+}
+
+.card h1, h4, p{
+  color:#FFF;
+}
+
+.card h1{
+  font-size: 90px;
+}
+
+.card h4{
+  font-size: 30px;
+}
+
+.card p{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #F012BE;
+
+}
