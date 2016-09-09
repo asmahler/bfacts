@@ -3,18 +3,21 @@ var size = document.getElementById('size');
 var wiki = document.getElementById('wikiText');
 function init(){
 
-  showSize(size);
-
-  function showSize(el){
-    el.innerText = browserSize;
+  size.innerText = browserSize + "px";
+  return browserSize;
 
 
   }
-}
-
 
 
 init();
+
+ window.addEventListener("resize", function(){
+  size.innerText = window.innerWidth + "px";
+  });
+
+
+
 
 function ajax(){
   var request = new XMLHttpRequest();

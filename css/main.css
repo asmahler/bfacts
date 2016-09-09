@@ -1,7 +1,7 @@
 html,body{
   margin: 0;
   body:0;
-  background-color: #7FDBFF;
+  background-color: #c9c9c9;
   font-family: Helvetica, sans-serif;
 }
 
@@ -18,11 +18,11 @@ html,body{
 }
 
 #size {
-  color: #F012BE;
+  color: #FFF;
 }
 
 .card h1, h4, p{
-  color:#FFF;
+  color: #3b3a36;
 }
 
 .card h1{
